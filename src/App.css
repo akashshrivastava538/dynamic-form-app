@@ -1,38 +1,142 @@
+/* .App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+} */
+
+header {
+  display: inline-block; /* Adjust width to fit content */
+  background-color: #4CAF50; /* Green background */
+  color: white;
+  font-size: 10px; /* Adjust text size */
+  padding: 10px 20px; /* Add padding around the text */
+  border-radius: 5px; /* Rounded corners for a cleaner look */
+  margin-bottom: 20px; /* Add spacing below header */
+}
+
+header select {
+  display: inline-block; /* Fit content width */
+  margin-top: 10px;
+  padding: 8px;
+  font-size: 16px; /* Ensure font size matches overall design */
+  border: 1px solid #ccc; /* Light border for dropdown */
+  border-radius: 5px; /* Rounded corners for dropdown */
+}
+
+.dynamic-form {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.form-field {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input, select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+}
+
+.progress-bar-container {
+  width: 100%;
+  height: 10px;
+  background-color: #ddd;
+  margin: 20px 0;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: #4CAF50;
+}
+
+.submitted-data {
+  margin-top: 30px;
+}
+
+table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+button {
+  margin: 0 5px;
+}
+.form-selector {
+  max-width: 300px; /* Set a maximum width for the selector */
+  margin: 20px auto; /* Center horizontally with auto margins */
+  text-align: center; /* Center the label and select within the div */
+}
+
+.form-selector label {
+  display: block; /* Ensure the label takes full width */
+  margin-bottom: 10px; /* Add space below the label */
+}
+
+.form-selector select {
+  width: 100%; /* Make the select element fill the width of the container */
+  padding: 8px; /* Add some padding for better appearance */
+  font-size: 16px; /* Match font size for consistency */
+  border: 1px solid #ccc; /* Light border for dropdown */
+  border-radius: 5px; /* Rounded corners for dropdown */
+}
 .App {
   text-align: center;
+  font-family: Arial, sans-serif;
+  padding-bottom: 40px; /* Add padding to avoid content hiding behind the footer */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+footer {
+  position: fixed; /* Fix the footer at the bottom of the viewport */
+  bottom: 0; /* Position it at the bottom */
+  left: 0; /* Align it to the left */
+  width: 100%; /* Make it span the full width of the page */
+  background-color: #4CAF50; /* Background color for the footer */
+  color: white; /* Text color */
+  text-align: center; /* Center the text */
+  padding: 5px 0; /* Add padding for better appearance */
+  font-size: 10px; /* Font size for the footer text */
+  border-top: 1px solid #ddd; /* Optional: Add a top border for separation */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
